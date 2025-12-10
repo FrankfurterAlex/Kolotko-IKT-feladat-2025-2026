@@ -1,0 +1,1 @@
+# Kolotko-IKT-feladat-2025-2026
