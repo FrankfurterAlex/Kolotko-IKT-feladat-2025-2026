@@ -1,0 +1,139 @@
+Kolodko projekt
+
+CSapatok:
+1) Lóránt
+   Varga
+   Boda
+2) Ghimán   
+   Benkő
+   Frankfurter
+3) Bartók
+   Antal
+   Selényi
+4) Ruschil
+   Nyírbátori
+   Zsigár
+2)Megismerkednek a diákok Kolodkó Mihály munkásságával, 
+szobraival és ezen keresztül a magyar múlt jelentős 
+szemléletformáló (valós vagy kitalált) alakjaival. 
+Ezen túl Budapest műemlékeivel és nevezetességeivel. 
+Ezen túl fejlesztik weblaptervezési és fejlesztési 
+     ismereteiket is.
+
+Részfeladatok:
+  - Kolodko Mihály bemutatása
+  - 8 szobor bemutatása (6 egyedi)
+    Minden szoborról leírás 
+    - jelentőség, történet 
+      1000 - 2000 karakter
+  - Útvonalterv - Kirándulás térkép
+    Szobrok érintésével és 5-6 városi 
+    nevezetesség a szoborhoz közel
+
+3-4 fő feladatainak egyértelmű meghatározása
+Megosztott GITHUB repository a csapat két tagja között.
+Github - szöveget MarkDown  (readme.md)
+8 szobor bemutatása (6 egyedi)
+1. csapat
+   drakula, micimackó, garfild, Roth Miksa, 
+   búvár és kulcs, Seress Rezső,Halott mókus,
+   Szenes Hanna
+2. csapat
+   14 karátos auto, Szenes Hanna, Skála kópé, 
+   Halott mókus, Orosz hadihajó, Chuck Norris,
+   Colombo, Trabant 
+3. csapat
+   noé bárkája, mekk elek,balta, breki, szomorú tank,
+   Rubik kocka, Garfild, búvár és kulcs
+4. csapat
+   főkukac, lufikutya, mr bean, usánka, holdjáró,
+   Maci, Breki, Skála kópé 
+Minden szoborról leírás - jelentőség, történet 
+       1000 - 1500 karakter
+Útvonalterv - Kirándulás térkép
+   Szobrok érintésével és 1-2 városi nevezetesség 
+   a szoborhoz közel
+
+Időpontok
+1. mérföldkő: december 17 1-2 feladat
+2. mérföldkő: január 7      3 feladat + saját képek
+                            4 feladat > design, drótváz
+3. mérföldkő: január 14     Teljes projekt 
+ 
+Feladatok
+1) Kolodko Mihály élete és munkássága - kutatás - MarkDown formátumban GITHUB tárolóban (Kolodko.md)
+	1.1 Képek Kolodkóról (min 8 kép)
+	1.2 Esszé Kolodko életéről és munkásságáról (3-4ezer kar) 
+	1.3 Forrásgyűjtemény (5forrás)
+
+2)Szobrok leírása - MarkDown formátumban GITHUB tárolóban (szobrok.md)
+	2.1 Első szobor
+		2.1.1 Fényképek
+		2.1.2 Esszé (jelentőség, történet 1000 - 1500 kar)
+	2.2 Második szobor
+		2.2.1 Fényképek
+		2.2.2 Esszé (jelentőség, történet 1000 - 1500 kar)
+	...
+	2.8 Nyolcadik szobor
+		2.8.1 Fényképek
+		2.8.2 Esszé (jelentőség, történet 1000 - 1500 kar)
+	2.9 Forrásgyűjtemény
+
+3) Túristatérkép
+	3.1 Utvonal feltérképezése
+            Gyülekezési pont - BKK terv
+	3.2 Google útvonal megjelenítés
+	3.3 Nevezetességek megnevezése (min 6db)
+		3.3.1 6db Esszé (rövid ismertető 200-500 kar)
+		3.3.2 Hivatalos oldal linkje	
+	3.4 Útvonal túrista leírás
+        3.5 Forrásgyűjtemény
+
+4) Weboldal (Bootstrap oldal -mobil - tablet -full-hd)
+	4.0 Design terv
+	4.1 Landing oldal (Látványos, kreatív) 
+		4.1.1 Drótváz
+		4.1.2 Grafikai előkészületek (mockup)
+		4.1.3 Galéria
+		4.1.3 HTML-CSS oldal Bootstrap-el
+	4.2 Szobrok bemutatása
+		4.2.1 Drótváz/ak
+		4.2.2 Grafikai előkészületek
+		4.2.3 HTML-CSS oldal Bootstrap-el és JavaScript (pl képnézegető)
+	4.3 Túrista útvonal ajánló	
+		4.3.1 Google térkép generálása
+		4.3.2 Szobrok és városi nevezetességek megjelenítése
+		4.3.3 BKK útvonalterv készítése
+		4.3.4 HTML-CSS oldal Bootstrap-el
+	4.4 Kolodko Mihályt bemutató oldal
+		4.4.1 Bemutatkozás
+		4.4.2 Főbb művek
+		4.4.3 Külföldi hasonló szobrászok megemlítése
+        4.all  Fejlesztők külön branch
+               githubon látszik a folyamat
+
+5) Projekt bemutatása
+	5.1 Összefoglaló (Esszé)
+	5.2 Prezentáció
+	5.3 GITHUB tároló használata
+	5.4 GUTHUB oldalon publikálni a teljes weboldalt
+
+6) Értékelés
+1) 	a) Esszé több forrás alapján készül
+	b) Megfelelő terjedelem
+	c) Megfelelően tagolt esszé
+	d) Címek-alcímek használata
+	e) Érdekes,jó minőségű képek min darabszámban
+2)	a) Saját képek-taggal
+	b) Érdekes esszé
+	c) Szobrok esszéinek/képek mennyisége
+	d) Önálló gondolatok
+	e) Tagolás
+3)	a) térkép megléte
+	b) Utvonalterv szobrok jelölésével
+	c) Nevezetességek jelölése, bemutatása
+	d) Esszék tagolása
+	e) Források listája és felhasználása	
+
+
+
