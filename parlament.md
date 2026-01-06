@@ -1,0 +1,2 @@
+Parlament
+A magyar Parlament az ország egyik legfontosabb intézménye. Itt dolgoznak az országgyűlési képviselők, akiket a választásokon az emberek választanak meg. A Parlamentben törvényeket alkotnak, vitáznak az aktuális problémákról, és döntenek az ország jövőjéről. Az épület Budapesten, a Duna partján áll, és nagyon híres a kupolájáról. Szerintem a Parlament szerepe azért fontos, mert itt dől el, hogyan élünk a mindennapokban.

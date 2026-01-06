@@ -1,0 +1,2 @@
+Magyar Nemzeti Bank
+A Magyar Nemzeti Bank Magyarország központi bankja, amely fontos szerepet tölt be az ország gazdaságában. Feladata, hogy vigyázzon a pénz értékére és biztosítsa az árstabilitást. A forint kibocsátása is a Magyar Nemzeti Bankhoz tartozik. Emellett figyeli a bankrendszer működését, hogy az biztonságos legyen. Szerintem a Magyar Nemzeti Bank munkája azért fontos, mert hatással van az emberek mindennapi életére és a gazdaság működésére.
