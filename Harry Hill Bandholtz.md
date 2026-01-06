@@ -1,0 +1,3 @@
+Harry Hill Bandholtz amerikai tábornok szobra a budapesti Szabadság téren a magyar–amerikai kapcsolatok jelképe. Bandholtz 1919-ben, 
+a Szövetséges Katonai Misszió tagjaként fellépett a Magyar Nemzeti Múzeum kifosztása ellen, így a jog és a kulturális örökség védelmének 
+alakjává vált. A lovaglópálcát tartó figura határozottságot sugároz, és a tér vitatott emlékezeti közegében a történelmi felelősség kérdését is megnyitja.
