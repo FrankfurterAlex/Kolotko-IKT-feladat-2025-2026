@@ -1,7 +1,12 @@
-.szoveg{text-align: center;}
+body{background-color: black;
+    background-image: url(letöltött/bphatter2.jpg);
+    background-attachment: fixed;
+    background-size: cover;}
+
+.szoveg{text-align: center;
+font-weight: bold;
+font-style: italic;}
+
+.nagy{font-size: xx-large;}
 
 .kerek{border-radius: 100px;}
-
-body{background-color: black;
-
-}
