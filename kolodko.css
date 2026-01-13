@@ -1,53 +1,127 @@
-
 .szoveg{text-align: center;
 font-weight: bold;
 font-style: italic;}
-
+ 
 .nagy{font-size: xx-large;}
-
+ 
 .kerek{border-radius: 100px;}
-
-p{text-decoration: underline}
-
+ 
+span{color: rgb(43, 248, 2);}
+ 
 h1 {
     text-transform: uppercase;
     text-align:center;
     margin-bottom: 100px;
 }
-
+ 
 body {
   background-color: black;
   background-image: url(letöltött/bphatter2.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
-
+ 
 span.link {
   cursor: pointer;
   text-decoration: underline;
   font-weight: bold;
   color: yellow;
 }
-
+ 
 .displayMe {
   width: 250px;
   position: absolute;
   z-index: 999;
 }
-
+ 
 .displayMe img {
   width: 100%;
   box-shadow: 2px 2px 10px black;
   border-radius: 10px;
 }
-
+ 
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-
+ 
 @keyframes fadeOut {
   from { opacity: 1; }
   to { opacity: 0; }
 }
-
+ 
+.wiki-preview {
+  position: absolute;
+  width: 260px;
+  background: #fff;
+  border: 1px solid #a2a9b1;
+  box-shadow: 0 2px 8px rgba(0,0,0,.2);
+  padding: 5px;
+  z-index: 1000;
+  opacity: 0;
+}
+ 
+.wiki-preview img {
+  width: 100%;
+  display: block;
+}
+ 
+.fade-in {
+  animation: fadeIn .3s forwards;
+}
+ 
+.fade-out {
+  animation: fadeOut .3s forwards;
+}
+ 
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+ 
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+ 
+.wiki-preview {
+  position: absolute;
+  width: 260px;
+  background: #fff;
+  border: 1px solid #a2a9b1;
+  box-shadow: 0 4px 10px rgba(0,0,0,.25);
+  padding: 6px;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+}
+ 
+.wiki-preview img {
+  width: 100%;
+  display: block;
+}
+ 
+.fade-in {
+  animation: fadeIn .3s forwards;
+}
+ 
+.fade-out {
+  animation: fadeOut .3s forwards;
+}
+ 
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+ 
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+ 
+.wiki-hover {
+  cursor: help;
+  text-decoration: underline dotted;
+}
+ 
+ 
