@@ -1,0 +1,119 @@
+:root {
+    --bg-dark: #0a0a0c;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --accent-purple: #8a2be2;
+    --vivid-purple: #bf40bf;
+    --gold: #d4af37;
+    --text-white: #f8f9fa;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Glassmorphism Navigáció */
+.navbar {
+    background: rgba(10, 10, 12, 0.8) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--accent-purple);
+}
+
+.navbar-brand {
+    font-weight: 800;
+    color: var(--gold) !important;
+    letter-spacing: 2px;
+}
+
+/* Fancy Header */
+.hero-section {
+    padding: 100px 0;
+    background: radial-gradient(circle at center, #2e0249 0%, #0a0a0c 100%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    background: linear-gradient(45deg, var(--accent-purple), var(--gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+/* Animált Kártyák */
+.statue-card {
+    background: var(--card-bg);
+    border: 1px solid rgba(138, 43, 226, 0.3);
+    border-radius: 20px;
+    padding: 30px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    backdrop-filter: blur(5px);
+    height: 100%;
+}
+
+.statue-card:hover {
+    transform: translateY(-15px);
+    border-color: var(--gold);
+    box-shadow: 0 10px 30px rgba(138, 43, 226, 0.4);
+}
+
+/* Részletes Doboz */
+.detail-container {
+    background: var(--card-bg);
+    border-radius: 30px;
+    padding: 50px;
+    border: 1px solid var(--accent-purple);
+    margin-top: 50px;
+}
+
+/* Gombok */
+.btn-fancy {
+    background: linear-gradient(45deg, var(--accent-purple), var(--vivid-purple));
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 35px;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-fancy:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(--accent-purple);
+    color: var(--gold);
+}
+
+/* Animációk */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+img {
+    border-radius: 20px;
+    border: 1px solid var(--accent-purple);
+    box-shadow: 0 0 15px rgba(138, 43, 226, 0.2);
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* Néhány extra stílus a képnek, ha a style.css-ben még nem lenne benne */
+.profile-img {
+max-width: 100%;
+ height: auto;
+border: 2px solid var(--gold, #d4af37); /* Arany keret, ha definiálva van a változó */
+transition: transform 0.3s ease;
+ }
+.profile-img:hover {
+transform: scale(1.02);
+}
