@@ -14,7 +14,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Glassmorphism Navigáció */
+
 .navbar {
     background: rgba(10, 10, 12, 0.8) !important;
     backdrop-filter: blur(10px);
@@ -27,7 +27,7 @@ body {
     letter-spacing: 2px;
 }
 
-/* Fancy Header */
+
 .hero-section {
     padding: 100px 0;
     background: radial-gradient(circle at center, #2e0249 0%, #0a0a0c 100%);
@@ -42,7 +42,7 @@ h1 {
     font-weight: 900;
 }
 
-/* Animált Kártyák */
+
 .statue-card {
     background: var(--card-bg);
     border: 1px solid rgba(138, 43, 226, 0.3);
@@ -59,7 +59,7 @@ h1 {
     box-shadow: 0 10px 30px rgba(138, 43, 226, 0.4);
 }
 
-/* Részletes Doboz */
+
 .detail-container {
     background: var(--card-bg);
     border-radius: 30px;
@@ -68,7 +68,7 @@ h1 {
     margin-top: 50px;
 }
 
-/* Gombok */
+
 .btn-fancy {
     background: linear-gradient(45deg, var(--accent-purple), var(--vivid-purple));
     color: white;
@@ -87,7 +87,7 @@ h1 {
     color: var(--gold);
 }
 
-/* Animációk */
+
 .reveal {
     opacity: 0;
     transform: translateY(30px);
@@ -107,13 +107,41 @@ img {
     margin-bottom: 25px;
 }
 
-/* Néhány extra stílus a képnek, ha a style.css-ben még nem lenne benne */
+
 .profile-img {
 max-width: 100%;
  height: auto;
-border: 2px solid var(--gold, #d4af37); /* Arany keret, ha definiálva van a változó */
+border: 2px solid var(--gold, #d4af37); 
 transition: transform 0.3s ease;
  }
 .profile-img:hover {
 transform: scale(1.02);
+}
+
+.carousel-inner img {
+    height: 450px;      
+    object-fit: cover;  
+    width: 100%;
+}
+
+.optimized-img {
+    max-height: 420px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.4s ease;
+}
+
+.optimized-img:hover {
+    transform: scale(1.03);
+}
+
+.bio-text p {
+    margin-bottom: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .optimized-img {
+        max-height: 300px;
+    }
 }
